@@ -6,7 +6,7 @@
 
 *Every piece of knowledge is a morphism. Every morphism is accountable.*
 
-[![Tests](https://github.com/YOUR_USERNAME/morphos/actions/workflows/tests.yml/badge.svg)](https://github.com/YOUR_USERNAME/morphos/actions/workflows/tests.yml)
+[![Tests](https://github.com/Codegaea/morphos/actions/workflows/tests.yml/badge.svg)](https://github.com/Codegaea/morphos/actions/workflows/tests.yml)
 [![Python](https://img.shields.io/badge/python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-22863a?style=flat-square)](./LICENSE)
 [![Math](https://img.shields.io/badge/math-enriched%20category%20theory-7c3aed?style=flat-square)](#mathematical-foundation)
@@ -112,7 +112,7 @@ Python 3.12+. No Docker. No cloud dependencies.
 ### Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/morphos.git
+git clone https://github.com/Codegaea/morphos.git
 cd morphos
 pip install -r requirements.txt
 ```
