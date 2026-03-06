@@ -1,0 +1,10 @@
+fastapi>=0.110.0
+uvicorn>=0.29.0
+gudhi>=3.9.0
+scipy>=1.12.0
+sympy>=1.12
+numpy>=1.26.0
+networkx>=3.3
+python-constraint2>=2.0.0
+httpx>=0.27.0
+pytest>=8.0.0
