@@ -1,0 +1,22 @@
+# MORPHOS — Dependabot
+# Watches requirements.txt (FastAPI, uvicorn, GUDHI, SciPy, SymPy, NumPy, NetworkX, python-constraint2, httpx, pytest:
+# the engine, the server and the test suite) and the GitHub Actions in .github/workflows/tests.yml.
+# pip:
+# - Security updates only. Version updates are off (open-pull-requests-limit: 0), so a pull request means an advisory.
+#   requirements.txt sets lower bounds only, so CI already installs the newest versions on every run.
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 0
+  # The actions in tests.yml (checkout, setup-python): new versions once a month, in one pull request,
+  # so they don't fall behind GitHub's runners.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ['*']
